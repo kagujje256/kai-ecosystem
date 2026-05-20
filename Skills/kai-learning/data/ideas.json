@@ -1,0 +1,10 @@
+[
+  {
+    "id": "idea_001",
+    "idea": "Set up Binance API for automatic profit deposits",
+    "status": "proposed",
+    "potential": 500000,
+    "created": "2026-05-09T11:00:00Z",
+    "notes": "Need Binance API keys from Shardick"
+  }
+]

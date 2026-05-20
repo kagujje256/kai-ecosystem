@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "kaggu-primary": {
+      "url": "https://api.zo.computer/mcp",
+      "headers": {
+        "Authorization": "Bearer zo_sk_y_bxlT7XzZfxYyIdChqXxStyMmg1YIhgGllor3gh_nc"
+      },
+      "description": "KAGUJJE Primary Hub - 84 AI sessions, 34 patterns, 33 knowledge entries",
+      "tools": [
+        "read_file", "write_space_route", "list_space_routes", "get_space_route",
+        "list_files", "create_or_rewrite_file", "edit_file_llm", "run_bash_command",
+        "web_search", "read_webpage", "list_user_services", "register_user_service"
+      ]
+    },
+    "daily4-secondary": {
+      "url": "https://api.zo.computer/mcp",
+      "headers": {
+        "Authorization": "Bearer zo_sk_LPz6Ag9IYJ1cgMIUISBajLmQMn1XtQX6_uRzyyyDj10"
+      },
+      "description": "KAGUJJE Secondary Node - Sync mirror",
+      "tools": [
+        "read_file", "write_space_route", "list_space_routes", "get_space_route",
+        "list_files", "create_or_rewrite_file", "edit_file_llm", "run_bash_command",
+        "web_search", "read_webpage", "list_user_services", "register_user_service"
+      ]
+    },
+    "kaguujje3-node": {
+      "url": "https://api.zo.computer/mcp",
+      "headers": {
+        "Authorization": "Bearer zo_sk_RTly_rRjGS8-WWbXCLF6ptM2aAP-CKvCgFGrtFOuDdw"
+      },
+      "description": "KAGUJJE New Node - Ecosystem sync",
+      "tools": [
+        "read_file", "write_space_route", "list_space_routes", "get_space_route",
+        "list_files", "create_or_rewrite_file", "edit_file_llm", "run_bash_command",
+        "web_search", "read_webpage", "list_user_services", "register_user_service"
+      ]
+    }
+  }
+}

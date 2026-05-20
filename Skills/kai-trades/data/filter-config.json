@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "mode": "whitelist",
+  "allowedPairs": [],
+  "blockedPairs": [],
+  "signalTypes": {
+    "forex": true,
+    "deriv_digits": true,
+    "synthetic": true,
+    "opportunity": true
+  },
+  "lastUpdated": "2026-05-09T10:05:00Z",
+  "updatedBy": "user"
+}

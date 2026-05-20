@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-09T10:35:00Z",
+  "focus_pairs": {
+    "forex": ["XAU/USD", "XAG/USD"],
+    "deriv": [],
+    "synthetics": ["V75"]
+  },
+  "hedging_pairs": {
+    "forex": [],
+    "deriv": [],
+    "synthetics": []
+  },
+  "ignored_pairs": ["BOOM1000", "CRASH500", "BOOM500", "CRASH1000", "V100", "EUR/USD", "GBP/USD", "AUD/USD", "USD/CAD", "USD/JPY"],
+  "confidence_threshold": 85,
+  "addable": true,
+  "notes": "Focus on XAU/USD (Gold), XAG/USD (Silver), and Volatility 75. More pairs can be added on request."
+}

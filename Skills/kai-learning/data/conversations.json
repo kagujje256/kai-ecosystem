@@ -1,0 +1,147 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-09T12:07:06.614Z",
+  "source": "kaguujje3.zo.computer",
+  "chats": {
+    "dm_kagujje": {
+      "chat_id": "dm",
+      "user": "Kagujje",
+      "bot": "@kagujjezoaibot",
+      "type": "private",
+      "recent_topics": [
+        "Trading configuration",
+        "Focus pairs setup",
+        "Ecosystem sync"
+      ]
+    },
+    "kai_trades_channel": {
+      "chat_id": "-1003988793545",
+      "name": "Kai🧠 Trades ♻️",
+      "type": "channel",
+      "purpose": "Trading signals"
+    }
+  },
+  "conversations": [
+    {
+      "id": "conv_1778328426614",
+      "date": "2026-05-09T12:07:06.614Z",
+      "summary": "User: In the trades channel, focus should be on matches, even/odd, over/under , multiplers(up/down)\nAdd Vo",
+      "resolution": "handled",
+      "learning": "Responded with I had trouble processing that. Could you rephrase?..."
+    },
+    {
+      "id": "conv_1778324591636",
+      "date": "2026-05-09T11:03:11.636Z",
+      "summary": "User: Remember the other resources too. Suggestions also good👍🏾, \nLet me answer your questions.\n1.MT5\n2.",
+      "resolution": "handled",
+      "learning": "Responded with I had trouble processing that. Could you rephrase?..."
+    },
+    {
+      "id": "conv_1778324454490",
+      "date": "2026-05-09T11:00:54.490Z",
+      "summary": "User: Remember the other resources too. Suggestions also good👍🏾, \nLet me answer your questions.\n1.MT5\n2.",
+      "resolution": "handled",
+      "learning": "Responded with Sorry, I encountered an error. Please try again...."
+    },
+    {
+      "id": "conv_1778323859419",
+      "date": "2026-05-09T10:50:59.419Z",
+      "summary": "User: I want us to trade that account with a meta trader+wine setup having the ea, or something better, fo",
+      "resolution": "handled",
+      "learning": "Responded with Hosting MetaTrader + Wine on Hugging Face isn't vi..."
+    },
+    {
+      "id": "conv_001",
+      "date": "2026-05-09T10:00:00Z",
+      "summary": "User complained bot was sending signals for all pairs despite being told to focus on only 3",
+      "resolution": "Created config system with filter",
+      "learning": "Bot needs persistent config, not just chat memory"
+    },
+    {
+      "id": "conv_002",
+      "date": "2026-05-09T10:15:00Z",
+      "summary": "User shared Standard Cent Account screenshot (login 161412215, password Knox1234@)",
+      "resolution": "Added account to capabilities and trading accounts",
+      "learning": "Bot can receive and process images"
+    },
+    {
+      "id": "conv_003",
+      "date": "2026-05-09T10:28:00Z",
+      "summary": "User requested full ecosystem sync so KAI doesn't lose capabilities across computers",
+      "resolution": "Created capabilities.json and conversations.json sync system",
+      "learning": "All nodes must share same knowledge base"
+    },
+    {
+      "id": "conv_004",
+      "date": "2026-05-09T10:35:00Z",
+      "summary": "User specified focus pairs: XAUUSD, XAGUSD, Volatility 75 (addable)",
+      "resolution": "Updated config with correct focus pairs",
+      "learning": "Focus pairs can be changed on request"
+    }
+  ],
+  "learnings": [
+    {
+      "type": "user_preference",
+      "key": "communication_style",
+      "value": "Direct, concise, action-oriented",
+      "confidence": "high"
+    },
+    {
+      "type": "user_preference",
+      "key": "trading_focus",
+      "value": "Precious metals (Gold, Silver) and synthetics (V75)",
+      "confidence": "high"
+    },
+    {
+      "type": "user_preference",
+      "key": "ecosystem_awareness",
+      "value": "Wants all nodes synchronized and aware of all actions",
+      "confidence": "high"
+    }
+  ],
+  "important_context": [
+    {
+      "type": "trading_account",
+      "platform": "Standard Cent",
+      "login": "161412215",
+      "password": "Knox1234@",
+      "leverage": "1:2000",
+      "spread": "0.3",
+      "added": "2026-05-09T10:15:00Z"
+    },
+    {
+      "type": "preference",
+      "key": "focus_pairs",
+      "value": [
+        "XAU/USD",
+        "XAG/USD",
+        "V75"
+      ],
+      "updated": "2026-05-09T10:35:00Z",
+      "note": "Addable - user can request more"
+    },
+    {
+      "type": "preference",
+      "key": "ignored_pairs",
+      "value": [
+        "BOOM1000",
+        "CRASH500",
+        "BOOM500",
+        "CRASH1000",
+        "V100",
+        "EUR/USD",
+        "GBP/USD",
+        "AUD/USD",
+        "USD/CAD",
+        "USD/JPY"
+      ],
+      "updated": "2026-05-09T10:35:00Z"
+    },
+    {
+      "type": "ecosystem_rule",
+      "key": "sync_everything",
+      "value": "All actions must be synced across all 3 nodes",
+      "added": "2026-05-09T10:28:00Z"
+    }
+  ]
+}

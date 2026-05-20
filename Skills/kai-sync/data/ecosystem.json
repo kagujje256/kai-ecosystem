@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-09T10:45:00Z",
+  "source": "kaguujje3.zo.computer",
+  "nodes": {
+    "kaggu": {
+      "url": "https://kaggu.zo.space/api/kai/sync",
+      "role": "Primary",
+      "features": ["Learning", "Evaluations", "Trading"]
+    },
+    "daily4": {
+      "url": "https://daily4.zo.space/api/kai/sync",
+      "role": "Backup",
+      "features": ["Sync", "Storage"]
+    },
+    "kaguujje3": {
+      "url": "https://kaguujje3.zo.space/api/kai/sync",
+      "role": "Active",
+      "features": ["Signals", "Deriv", "Telegram"]
+    }
+  },
+  "tokens": {
+    "kaggu": "zo_sk_y_bxlT7XzZfxYyIdChqXxStyMmg1YIhgGllor3gh_nc",
+    "daily4": "zo_sk_LPz6Ag9IYJ1cgMIUISBajLmQMn1XtQX6_uRzyyyDj10",
+    "kaguujje3": "zo_sk_RTly_rRjGS8-WWbXCLF6ptM2aAP-CKvCgFGrtFOuDdw"
+  },
+  "chats": {
+    "dm_kagujje": {
+      "bot": "@kagujjezoaibot",
+      "user": "Kagujje",
+      "status": "active"
+    },
+    "kai_trades_channel": {
+      "chat_id": "-1003988793545",
+      "name": "Kai🧠 Trades ♻️",
+      "type": "channel",
+      "purpose": "Trading signals"
+    }
+  },
+  "focus_pairs": ["XAU/USD", "XAG/USD", "V75"],
+  "ignored_pairs": ["BOOM1000", "CRASH500", "BOOM500", "CRASH1000", "V100"]
+}

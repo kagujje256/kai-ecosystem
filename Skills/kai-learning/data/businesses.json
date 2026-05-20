@@ -1,0 +1,145 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-09T11:15:00Z",
+  "target_monthly": 5000000,
+  "current_monthly": 0,
+  "businesses": [
+    {
+      "name": "OFM Agency (OnlyFans Management)",
+      "potential_monthly": 500000,
+      "status": "proposed",
+      "automation_level": 90,
+      "risk_level": "low",
+      "setup_time": "2-4 weeks",
+      "description": "Manage OF models, 25-30% cut, automated chat responses, content scheduling"
+    },
+    {
+      "name": "Memecoin Creation & Trading",
+      "potential_monthly": 2000000,
+      "status": "proposed",
+      "automation_level": 95,
+      "risk_level": "medium",
+      "setup_time": "1-2 weeks",
+      "description": "Create, market, and trade memecoins. Automated deployment, sniping, and DCA"
+    },
+    {
+      "name": "DeFi Yield Aggregator",
+      "potential_monthly": 300000,
+      "status": "proposed",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "1 week",
+      "description": "Automated yield farming across protocols. Flash loans, arbitrage, liquidations"
+    },
+    {
+      "name": "Forex Signal Service",
+      "potential_monthly": 150000,
+      "status": "active",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "active",
+      "description": "Premium signals via Telegram, 85%+ accuracy, automated posting"
+    },
+    {
+      "name": "Crypto Arbitrage Bot",
+      "potential_monthly": 500000,
+      "status": "proposed",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "1 week",
+      "description": "Cross-exchange arbitrage, triangular arbitrage, DEX/CEX arbitrage"
+    },
+    {
+      "name": "Content Farm (YouTube/TikTok)",
+      "potential_monthly": 200000,
+      "status": "proposed",
+      "automation_level": 85,
+      "risk_level": "low",
+      "setup_time": "2-3 weeks",
+      "description": "AI-generated content, faceless channels, automated posting, monetization"
+    },
+    {
+      "name": "Affiliate Marketing Empire",
+      "potential_monthly": 300000,
+      "status": "proposed",
+      "automation_level": 90,
+      "risk_level": "low",
+      "setup_time": "2-4 weeks",
+      "description": "High-ticket affiliate funnels, automated email sequences, retargeting"
+    },
+    {
+      "name": "MLM/Network Marketing",
+      "potential_monthly": 400000,
+      "status": "proposed",
+      "automation_level": 80,
+      "risk_level": "low",
+      "setup_time": "1-2 weeks",
+      "description": "Build downline, automated recruitment, team management"
+    },
+    {
+      "name": "SaaS Products",
+      "potential_monthly": 500000,
+      "status": "proposed",
+      "automation_level": 95,
+      "risk_level": "low",
+      "setup_time": "4-8 weeks",
+      "description": "Trading tools, analytics dashboards, bot services - subscription model"
+    },
+    {
+      "name": "Telegram Channel Empire",
+      "potential_monthly": 200000,
+      "status": "partial",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "ongoing",
+      "description": "Multiple monetized channels, sponsored posts, premium subscriptions"
+    },
+    {
+      "name": "Copy Trading Platform",
+      "potential_monthly": 250000,
+      "status": "proposed",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "2-3 weeks",
+      "description": "Allow others to copy your trades, performance fees 20-30%"
+    },
+    {
+      "name": "Lead Generation Service",
+      "potential_monthly": 150000,
+      "status": "proposed",
+      "automation_level": 90,
+      "risk_level": "low",
+      "setup_time": "1-2 weeks",
+      "description": "Generate and sell qualified leads to businesses"
+    },
+    {
+      "name": "White Label Services",
+      "potential_monthly": 200000,
+      "status": "proposed",
+      "automation_level": 85,
+      "risk_level": "low",
+      "setup_time": "2-3 weeks",
+      "description": "Resell services (trading bots, analytics, tools) under your brand"
+    },
+    {
+      "name": "Information Products",
+      "potential_monthly": 300000,
+      "status": "proposed",
+      "automation_level": 100,
+      "risk_level": "low",
+      "setup_time": "2-4 weeks",
+      "description": "Courses, ebooks, trading guides - automated sales funnel"
+    },
+    {
+      "name": "NFT Projects",
+      "potential_monthly": 400000,
+      "status": "proposed",
+      "automation_level": 70,
+      "risk_level": "medium",
+      "setup_time": "2-4 weeks",
+      "description": "Create and sell NFT collections, royalty income"
+    }
+  ],
+  "total_potential": 5550000,
+  "notes": "Focus on low-risk, high-automation businesses. Diversify across 5-7 streams minimum."
+}

@@ -1,0 +1,176 @@
+{
+  "hustles": [
+    {
+      "id": "hustle_01",
+      "name": "AI Content Platform",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Complete platform build",
+        "Set up Gumroad payment",
+        "Create landing page",
+        "Start marketing"
+      ]
+    },
+    {
+      "id": "hustle_02",
+      "name": "Stock Content Creation",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Set up AI image generation",
+        "Create accounts on stock sites",
+        "Upload first batch",
+        "Monitor sales"
+      ]
+    },
+    {
+      "id": "hustle_03",
+      "name": "Memecoin Sniper Bot",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Complete paper trading week",
+        "Analyze patterns",
+        "Add real trading mode",
+        "Scale with profits"
+      ]
+    },
+    {
+      "id": "hustle_04",
+      "name": "AI Automation Templates",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Create Notion templates",
+        "Build Zapier workflows",
+        "Design prompt packs",
+        "Set up Gumroad shop"
+      ]
+    },
+    {
+      "id": "hustle_05",
+      "name": "AI Chatbot Platform",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Build chatbot framework",
+        "Create industry templates",
+        "Set up subscription billing",
+        "Launch marketing"
+      ]
+    },
+    {
+      "id": "hustle_06",
+      "name": "Social Media Automation",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Build scheduling system",
+        "Create content AI",
+        "Set up pricing tiers",
+        "Find first clients"
+      ]
+    },
+    {
+      "id": "hustle_07",
+      "name": "Affiliate Marketing Automation",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Choose affiliate networks",
+        "Build content generator",
+        "Create review sites",
+        "Optimize for conversions"
+      ]
+    },
+    {
+      "id": "hustle_08",
+      "name": "AI Writing Service",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Set up service menu",
+        "Create Fiverr gigs",
+        "Build portfolio",
+        "Get first reviews"
+      ]
+    },
+    {
+      "id": "hustle_09",
+      "name": "Newsletter Business",
+      "status": "building",
+      "automation_level": 100,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Choose newsletter platform",
+        "Define niches",
+        "Set up automation",
+        "Grow subscriber base"
+      ]
+    },
+    {
+      "id": "hustle_10",
+      "name": "Faceless YouTube Channel",
+      "status": "building",
+      "automation_level": 95,
+      "setup_cost": 0,
+      "daily_earnings": 0,
+      "total_earned": 0,
+      "tasks_completed": 0,
+      "last_action": "2026-05-20T20:00:49.105Z",
+      "next_steps": [
+        "Choose niche",
+        "Set up video automation",
+        "Create first videos",
+        "Optimize for growth"
+      ]
+    }
+  ],
+  "total_earned": 0,
+  "days_active": 0
+}

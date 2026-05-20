@@ -1,0 +1,839 @@
+{
+  "version": "3.0",
+  "updated": "2026-05-09T11:25:00Z",
+  "leverage": "AUTOMATION",
+  "categories": {
+    "ofm_ecosystem": {
+      "name": "OFM Ecosystem (OnlyFans Management)",
+      "monthly_potential": "$500K-$3M",
+      "automation_level": "95%",
+      "hustles": [
+        {
+          "id": "ofm_001",
+          "name": "AI Chatbot Service for OF Models",
+          "description": "Automate 24/7 human-like chatting for OnlyFans models. AI responds to fans, builds relationships, sells content, tips.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "NONE",
+          "automation": "99%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["AI model (GPT/Claude API)", "OFM clients", "Chat platform integration"],
+          "how": "Build AI chatbot that mimics model's personality. Charge models 20-30% of chat revenue OR monthly subscription $2K-5K."
+        },
+        {
+          "id": "ofm_002",
+          "name": "OFM Agency - Full Management",
+          "description": "Manage multiple models - account setup, content scheduling, chatting, promotion, analytics.",
+          "monthly_potential": "$100K-$1M",
+          "risk": "NONE",
+          "automation": "90%",
+          "setup_time": "1-2 months",
+          "requirements": ["Models (find on Instagram/TikTok)", "Automation stack", "Marketing skills"],
+          "how": "Acquire models (25-30% cut), automate everything with AI tools, scale to 50-100 models."
+        },
+        {
+          "id": "ofm_003",
+          "name": "OFM Tools/SaaS Platform",
+          "description": "Build tools for OFMs - schedulers, analytics, chatbots, pricing optimizers.",
+          "monthly_potential": "$50K-$300K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "2-3 months",
+          "requirements": ["Development skills", "Marketing to OFMs"],
+          "how": "SaaS subscription $50-500/month. Target 1K-5K agencies."
+        },
+        {
+          "id": "ofm_004",
+          "name": "OF Content Creation Agency",
+          "description": "AI-generated content - photos, videos, captions for models.",
+          "monthly_potential": "$30K-$200K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "1 month",
+          "requirements": ["AI image/video tools", "Client relationships"],
+          "how": "Use AI to generate content bundles. Sell packages $500-2K/month per model."
+        },
+        {
+          "id": "ofm_005",
+          "name": "OF Account Flipping",
+          "description": "Build OF accounts to certain level, sell for profit.",
+          "monthly_potential": "$20K-$150K",
+          "risk": "LOW",
+          "automation": "80%",
+          "setup_time": "Ongoing",
+          "requirements": ["Growth strategies", "Buyer network"],
+          "how": "Build accounts with AI content + promotion, sell 6-12 month revenue multiples."
+        }
+      ]
+    },
+    "ai_businesses": {
+      "name": "AI-Powered Businesses",
+      "monthly_potential": "$100K-$2M",
+      "automation_level": "100%",
+      "hustles": [
+        {
+          "id": "ai_001",
+          "name": "AI Chatbot Agency",
+          "description": "Build custom chatbots for businesses - customer support, sales, booking.",
+          "monthly_potential": "$30K-$300K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI API access", "Sales/marketing"],
+          "how": "Charge $500-5K setup + $100-500/month maintenance. Scale to 100-500 clients."
+        },
+        {
+          "id": "ai_002",
+          "name": "AI Content Agency",
+          "description": "Generate blogs, social posts, emails, scripts for businesses.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["AI writing tools", "Client acquisition"],
+          "how": "Retainer packages $1K-5K/month. 20-50 clients = $20K-250K/month."
+        },
+        {
+          "id": "ai_003",
+          "name": "AI Voice Services",
+          "description": "Voice cloning, AI narration, podcast production, audiobooks.",
+          "monthly_potential": "$15K-$150K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "1 month",
+          "requirements": ["Voice AI tools (ElevenLabs)", "Audio editing"],
+          "how": "Clone voices for content creators. Charge per project or monthly retainer."
+        },
+        {
+          "id": "ai_004",
+          "name": "AI Image Generation Service",
+          "description": "Product photos, marketing images, NFT art, custom illustrations.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "2-3 weeks",
+          "requirements": ["Midjourney/DALL-E/SD", "Prompt engineering"],
+          "how": "E-commerce product photos, marketing materials. $50-500 per project."
+        },
+        {
+          "id": "ai_005",
+          "name": "AI SEO Agency",
+          "description": "Automated SEO - content creation, optimization, backlinks.",
+          "monthly_potential": "$30K-$300K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["SEO tools", "AI content systems"],
+          "how": "Rank sites, sell leads, or retainer for SEO services $1K-10K/month."
+        },
+        {
+          "id": "ai_006",
+          "name": "AI Video Production",
+          "description": "AI video editing, automated YouTube/TikTok content, video ads.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "90%",
+          "setup_time": "1 month",
+          "requirements": ["Video AI tools", "Creative direction"],
+          "how": "YouTube automation, TikTok content at scale, ad creative for brands."
+        },
+        {
+          "id": "ai_007",
+          "name": "AI Automation Agency (AAA)",
+          "description": "Automate business workflows with AI - Zapier, Make, custom scripts.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "2-3 months",
+          "requirements": ["Automation platforms", "Technical skills"],
+          "how": "Build automations for businesses. $2K-20K setup + maintenance. 20-50 clients."
+        },
+        {
+          "id": "ai_008",
+          "name": "AI Wrapper Products",
+          "description": "Build simple AI tools - resume builders, email writers, legal docs, etc.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "2-4 weeks per tool",
+          "requirements": ["Development", "AI APIs"],
+          "how": "Build 10-20 niche AI tools. $10-50/month subscription. 1K-10K users each."
+        }
+      ]
+    },
+    "crypto_defi": {
+      "name": "Crypto & DeFi Automation",
+      "monthly_potential": "$500K-$5M",
+      "automation_level": "99%",
+      "hustles": [
+        {
+          "id": "crypto_001",
+          "name": "Memecoin Sniping Bot",
+          "description": "Auto-buy new memecoins on DEX at launch, sell on pump.",
+          "monthly_potential": "$50K-$2M",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "1-2 weeks",
+          "requirements": ["Solana/ETH nodes", "Bot infrastructure", "Risk management"],
+          "how": "Monitor new pairs, auto-buy with filters, sell on profit targets. Scale with multiple wallets."
+        },
+        {
+          "id": "crypto_002",
+          "name": "Memecoin Creation & Launch",
+          "description": "Create memecoins, build community, market, rug pull responsibly.",
+          "monthly_potential": "$100K-$1M",
+          "risk": "MEDIUM-HIGH",
+          "automation": "80%",
+          "setup_time": "1-2 weeks",
+          "requirements": ["Token creation tools", "Marketing", "Liquidity"],
+          "how": "Launch 1-3 tokens/month. Build community, market heavily, cash out on pumps."
+        },
+        {
+          "id": "crypto_003",
+          "name": "DeFi Yield Farming",
+          "description": "Automated yield farming across protocols - lending, LPs, staking.",
+          "monthly_potential": "$10K-$500K",
+          "risk": "LOW-MEDIUM",
+          "automation": "100%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["Capital $10K-100K", "DeFi knowledge", "Smart contracts"],
+          "how": "Auto-rebalance across highest yields. 5-20% monthly returns. Scale capital."
+        },
+        {
+          "id": "crypto_004",
+          "name": "Crypto Arbitrage Bot",
+          "description": "Exploit price differences across exchanges - triangular, cross-exchange.",
+          "monthly_potential": "$20K-$500K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["Exchange APIs", "Fast execution", "Capital"],
+          "how": "Monitor 50+ exchanges. Auto-execute arbitrage. Scale with capital."
+        },
+        {
+          "id": "crypto_005",
+          "name": "MEV Bot (Miner Extractable Value)",
+          "description": "Front-run, sandwich attacks, liquidation sniping on DEXs.",
+          "monthly_potential": "$50K-$1M",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["ETH node", "Flashbots", "Advanced coding"],
+          "how": "Build MEV strategies. Very competitive but highly profitable."
+        },
+        {
+          "id": "crypto_006",
+          "name": "NFT Sniping Bot",
+          "description": "Auto-buy undervalued NFTs, flip for profit.",
+          "monthly_potential": "$10K-$200K",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "2-3 weeks",
+          "requirements": ["NFT market knowledge", "Capital"],
+          "how": "Monitor new mints, floor prices. Buy low, sell high. Scale with capital."
+        },
+        {
+          "id": "crypto_007",
+          "name": "Copy Trading Platform",
+          "description": "Build platform where users copy your trades automatically.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "NONE (users' risk)",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Trading track record", "Platform development"],
+          "how": "Trade profitably, users copy. Take 10-20% profit share. Scale users."
+        },
+        {
+          "id": "crypto_008",
+          "name": "Airdrop Farming",
+          "description": "Automated multi-wallet airdrop farming for upcoming tokens.",
+          "monthly_potential": "$20K-$300K",
+          "risk": "LOW",
+          "automation": "95%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["Multiple wallets", "Automation scripts", "Capital for gas"],
+          "how": "Farm testnets, new protocols. 10-50 wallets. Sell airdrops when listed."
+        }
+      ]
+    },
+    "content_automation": {
+      "name": "Content Creation Automation",
+      "monthly_potential": "$100K-$1M",
+      "automation_level": "95%",
+      "hustles": [
+        {
+          "id": "content_001",
+          "name": "YouTube Automation (Faceless Channels)",
+          "description": "Run multiple faceless YouTube channels - AI scripts, voiceover, stock footage.",
+          "monthly_potential": "$20K-$300K",
+          "risk": "LOW",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["Content strategy", "Video editing automation"],
+          "how": "Build 5-10 channels in profitable niches. AI creates content. Monetize with ads + sponsors."
+        },
+        {
+          "id": "content_002",
+          "name": "TikTok Automation Farm",
+          "description": "Mass TikTok accounts, auto-post viral content, drive traffic to offers.",
+          "monthly_potential": "$10K-$150K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "1 month",
+          "requirements": ["TikTok automation tools", "Viral content system"],
+          "how": "50-100 accounts. Auto-post. Monetize with affiliate, products, account selling."
+        },
+        {
+          "id": "content_003",
+          "name": "Instagram Theme Pages",
+          "description": "Build large Instagram pages in niches, sell shoutouts, affiliate.",
+          "monthly_potential": "$5K-$100K",
+          "risk": "NONE",
+          "automation": "80%",
+          "setup_time": "2-3 months",
+          "requirements": ["Growth strategy", "Content sourcing"],
+          "how": "Build 10-20 pages. 100K-1M followers each. Shoutouts $50-500. Scale."
+        },
+        {
+          "id": "content_004",
+          "name": "Newsletter Business",
+          "description": "AI-curated newsletters in niches, monetize with ads + premium subs.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "90%",
+          "setup_time": "2-3 months",
+          "requirements": ["Email platform", "Niche expertise"],
+          "how": "Build 10K-100K subscribers. Premium $10-50/month. Sponsor ads. Multiple newsletters."
+        },
+        {
+          "id": "content_005",
+          "name": "Podcast Network",
+          "description": "AI-generated podcasts in multiple niches, monetize with ads.",
+          "monthly_potential": "$5K-$50K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI voice tools", "Podcast hosting"],
+          "how": "10-20 podcasts. Auto-generate episodes. Monetize with dynamic ads."
+        },
+        {
+          "id": "content_006",
+          "name": "Stock Content Creation",
+          "description": "AI-generated stock photos, videos, music. Sell on marketplaces.",
+          "monthly_potential": "$5K-$50K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "1 month",
+          "requirements": ["AI generation tools", "Marketplace accounts"],
+          "how": "Generate 1000s of assets. Upload to Shutterstock, Adobe Stock, etc. Passive income."
+        }
+      ]
+    },
+    "saas_products": {
+      "name": "SaaS & Digital Products",
+      "monthly_potential": "$200K-$2M",
+      "automation_level": "100%",
+      "hustles": [
+        {
+          "id": "saas_001",
+          "name": "Micro-SaaS Empire",
+          "description": "Build 10-20 small SaaS tools. $10-100/month subscriptions.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "2-4 weeks per tool",
+          "requirements": ["Development skills", "Marketing"],
+          "how": "Build tools in 2-4 weeks. 100-1000 users each. MRR compounds."
+        },
+        {
+          "id": "saas_002",
+          "name": "AI SaaS Platform",
+          "description": "Full AI platform for specific industry - legal, real estate, healthcare.",
+          "monthly_potential": "$100K-$1M",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "2-4 months",
+          "requirements": ["Development", "Industry knowledge", "Marketing"],
+          "how": "Build comprehensive AI tool. $100-500/month. 1K-5K users."
+        },
+        {
+          "id": "saas_003",
+          "name": "Template/Asset Store",
+          "description": "Sell digital templates - Notion, Figma, websites, presentations.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Design skills", "Gumroad/Gumloop"],
+          "how": "Create once, sell forever. 100-500 sales/month per template."
+        },
+        {
+          "id": "saas_004",
+          "name": "No-Code Agency",
+          "description": "Build apps/sites for clients using no-code tools - Bubble, Webflow, Glide.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "80%",
+          "setup_time": "1-2 months",
+          "requirements": ["No-code platforms", "Sales"],
+          "how": "Projects $5K-50K. 2-4 projects/month. Scale with team or AI."
+        },
+        {
+          "id": "saas_005",
+          "name": "API Service",
+          "description": "Build and sell APIs - data APIs, AI APIs, utility APIs.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Development", "Infrastructure"],
+          "how": "Build useful API. $50-500/month. 100-1000 developers. Passive MRR."
+        }
+      ]
+    },
+    "affiliate_marketing": {
+      "name": "Affiliate Marketing Automation",
+      "monthly_potential": "$100K-$1M",
+      "automation_level": "95%",
+      "hustles": [
+        {
+          "id": "affiliate_001",
+          "name": "Review Sites Network",
+          "description": "Build review/comparison sites. SEO traffic to affiliate links.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "2-4 months",
+          "requirements": ["SEO skills", "Content automation"],
+          "how": "10-20 sites. AI content. Affiliate commissions 5-50%. Passive income."
+        },
+        {
+          "id": "affiliate_002",
+          "name": "Email Marketing Empire",
+          "description": "Build email lists in niches. Automated email sequences promoting products.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "2-3 months",
+          "requirements": ["Email platform", "Lead magnets"],
+          "how": "Build 10K-100K list per niche. Auto-sequence promotes products. 1-5% conversion."
+        },
+        {
+          "id": "affiliate_003",
+          "name": "Influencer Affiliate Network",
+          "description": "Connect brands with influencers. Take cut of affiliate revenue.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "80%",
+          "setup_time": "2-3 months",
+          "requirements": ["Influencer network", "Brand relationships"],
+          "how": "Platform connects influencers + brands. 10-20% of affiliate revenue. Scale."
+        },
+        {
+          "id": "affiliate_004",
+          "name": "CPA Marketing",
+          "description": "Cost-per-action marketing. Drive traffic to offers, get paid per lead/sale.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "1-2 months",
+          "requirements": ["Traffic sources", "Funnel building"],
+          "how": "Paid + organic traffic to CPA offers. $1-50 per action. Scale profitable campaigns."
+        }
+      ]
+    },
+    "social_media_services": {
+      "name": "Social Media Services",
+      "monthly_potential": "$50K-$500K",
+      "automation_level": "90%",
+      "hustles": [
+        {
+          "id": "social_001",
+          "name": "Growth Service Agency",
+          "description": "Grow Instagram/TikTok/Twitter accounts for businesses/creators.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "85%",
+          "setup_time": "1-2 months",
+          "requirements": ["Growth tools", "Client acquisition"],
+          "how": "$500-2K/month per client. 20-100 clients. Mostly automated engagement."
+        },
+        {
+          "id": "social_002",
+          "name": "Social Media Management Agency",
+          "description": "Full social media management - content, posting, engagement, analytics.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "80%",
+          "setup_time": "1-2 months",
+          "requirements": ["Scheduling tools", "AI content"],
+          "how": "$1K-5K/month per client. 20-50 clients. AI creates content, schedules posts."
+        },
+        {
+          "id": "social_003",
+          "name": "Influencer Marketing Platform",
+          "description": "Platform connecting brands with micro-influencers.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "2-3 months",
+          "requirements": ["Platform development", "Network"],
+          "how": "Brands pay to access influencers. Influencers pay for opportunities. SaaS model."
+        },
+        {
+          "id": "social_004",
+          "name": "Account Selling Business",
+          "description": "Grow social accounts to certain followers, sell for profit.",
+          "monthly_potential": "$5K-$50K",
+          "risk": "LOW",
+          "automation": "85%",
+          "setup_time": "Ongoing",
+          "requirements": ["Growth strategies", "Buyer network"],
+          "how": "Grow accounts to 10K-100K followers. Sell $500-5K per account. Scale volume."
+        }
+      ]
+    },
+    "lead_generation": {
+      "name": "Lead Generation & Data",
+      "monthly_potential": "$50K-$500K",
+      "automation_level": "95%",
+      "hustles": [
+        {
+          "id": "leads_001",
+          "name": "B2B Lead Generation",
+          "description": "Scrape and sell targeted B2B leads to companies.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["Scraping tools", "LinkedIn Sales Navigator"],
+          "how": "Scrape leads by industry, role, location. Sell $0.10-1 per lead. 10K-100K leads/month."
+        },
+        {
+          "id": "leads_002",
+          "name": "Real Estate Leads",
+          "description": "Generate motivated seller leads for real estate investors.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "90%",
+          "setup_time": "1-2 months",
+          "requirements": ["Marketing", "Lead funnels"],
+          "how": "SEO + ads to lead funnels. Sell leads $20-100 each. 500-2000 leads/month."
+        },
+        {
+          "id": "leads_003",
+          "name": "Data Selling",
+          "description": "Scrape and sell datasets - company data, contact databases, market data.",
+          "monthly_potential": "$5K-$50K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Scraping infrastructure", "Data cleaning"],
+          "how": "Scrape valuable data. Sell on data marketplaces or direct. $100-1000 per dataset."
+        },
+        {
+          "id": "leads_004",
+          "name": "Rank & Rent",
+          "description": "Rank local service sites, rent to businesses or sell leads.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "2-4 months",
+          "requirements": ["Local SEO", "Content creation"],
+          "how": "Rank sites for 'city + service'. Rent $500-2K/month or sell leads $20-50 each."
+        }
+      ]
+    },
+    "ecommerce": {
+      "name": "E-commerce Automation",
+      "monthly_potential": "$100K-$1M",
+      "automation_level": "90%",
+      "hustles": [
+        {
+          "id": "ecom_001",
+          "name": "Dropshipping Automation",
+          "description": "Fully automated dropshipping stores - AI product research, listing, marketing.",
+          "monthly_potential": "$10K-$200K",
+          "risk": "LOW",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["Shopify", "Automation tools", "Ad budget"],
+          "how": "AI finds products, creates listings, runs ads. Scale to 5-10 stores."
+        },
+        {
+          "id": "ecom_002",
+          "name": "Print on Demand Empire",
+          "description": "AI-designed POD products across multiple platforms.",
+          "monthly_potential": "$5K-$100K",
+          "risk": "NONE",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["POD platforms", "AI design tools"],
+          "how": "Upload 1000s of AI designs. Auto-fulfill. Scale across Etsy, Amazon, Shopify."
+        },
+        {
+          "id": "ecom_003",
+          "name": "Amazon FBA Automation",
+          "description": "Automated Amazon FBA - product research, sourcing, PPC management.",
+          "monthly_potential": "$20K-$300K",
+          "risk": "MEDIUM",
+          "automation": "80%",
+          "setup_time": "2-3 months",
+          "requirements": ["Capital $10K-50K", "Amazon knowledge"],
+          "how": "AI finds products, manages PPC, predicts inventory. 10-20% margins. Scale."
+        },
+        {
+          "id": "ecom_004",
+          "name": "Digital Products Store",
+          "description": "Sell digital products - templates, courses, tools, assets.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Product creation", "Marketing"],
+          "how": "Create once, sell forever. $10-500 per product. 100-1000 sales/month."
+        }
+      ]
+    },
+    "agency_services": {
+      "name": "Agency Services (Automated)",
+      "monthly_potential": "$100K-$1M",
+      "automation_level": "85%",
+      "hustles": [
+        {
+          "id": "agency_001",
+          "name": "SEO Agency",
+          "description": "Full SEO services - audits, content, backlinks, technical SEO.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "NONE",
+          "automation": "85%",
+          "setup_time": "1-2 months",
+          "requirements": ["SEO tools", "AI content"],
+          "how": "$1K-10K/month per client. 20-50 clients. AI creates content, automates backlinks."
+        },
+        {
+          "id": "agency_002",
+          "name": "Web Design Agency",
+          "description": "Build websites using templates + AI customization.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "80%",
+          "setup_time": "1 month",
+          "requirements": ["Webflow/WordPress", "Templates"],
+          "how": "$500-5K per site. 10-50 sites/month. AI assists design. Scale with templates."
+        },
+        {
+          "id": "agency_003",
+          "name": "Video Editing Agency",
+          "description": "Automated video editing using AI - YouTube, TikTok, Reels.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "90%",
+          "setup_time": "1 month",
+          "requirements": ["Video AI tools", "Templates"],
+          "how": "$200-1000 per video. 50-200 videos/month. AI does 80% of work."
+        },
+        {
+          "id": "agency_004",
+          "name": "Virtual Assistant Agency",
+          "description": "Provide AI-powered virtual assistants to businesses.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "70%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI tools", "Client management"],
+          "how": "$500-2K/month per VA. 20-100 clients. AI handles most tasks."
+        }
+      ]
+    },
+    "trading_signals": {
+      "name": "Trading & Signals (Already Active)",
+      "monthly_potential": "$100K-$500K",
+      "automation_level": "100%",
+      "hustles": [
+        {
+          "id": "trade_001",
+          "name": "Premium Signal Service (ACTIVE)",
+          "description": "AI-powered trading signals for forex, crypto, deriv.",
+          "monthly_potential": "$10K-$150K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "Already running",
+          "requirements": ["Trading knowledge", "Telegram channel"],
+          "how": "ALREADY RUNNING. Scale to 1000-5000 subscribers. $10-100/month. KAI generates signals."
+        },
+        {
+          "id": "trade_002",
+          "name": "Deriv Automation",
+          "description": "Automated Deriv digit trading - streaks, matches, over/under.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "1-2 weeks",
+          "requirements": ["Deriv account", "Bot infrastructure", "Strategy"],
+          "how": "Build bot for digit patterns. 60-70% win rate. Scale with capital."
+        },
+        {
+          "id": "trade_003",
+          "name": "Forex Robot",
+          "description": "Automated forex trading with EA/algo.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["MT4/MT5", "Strategy", "Backtesting"],
+          "how": "Build EA for XAU/USD, XAG/USD, V75. 5-15% monthly returns. Scale capital."
+        },
+        {
+          "id": "trade_004",
+          "name": "Prop Firm Trading",
+          "description": "Trade funded accounts from prop firms. Keep 80% of profits.",
+          "monthly_potential": "$5K-$50K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Trading skills", "Prop firm fees"],
+          "how": "Pass challenges with automated strategy. Trade $50K-500K accounts. 80% profit split."
+        }
+      ]
+    },
+    "unrealized_hustles": {
+      "name": "Unrealized / Blue Ocean",
+      "monthly_potential": "$500K-$5M",
+      "automation_level": "VARIES",
+      "hustles": [
+        {
+          "id": "blue_001",
+          "name": "Telegram Mini Apps Empire",
+          "description": "Build Telegram mini apps - games, tools, utilities. Monetize with ads, in-app purchases.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "LOW",
+          "automation": "95%",
+          "setup_time": "2-4 weeks per app",
+          "requirements": ["Development", "Telegram knowledge"],
+          "how": "TON ecosystem exploding. Build 10-20 mini apps. Viral potential. TON airdrops."
+        },
+        {
+          "id": "blue_002",
+          "name": "AI Prompt Marketplace",
+          "description": "Marketplace for AI prompts - ChatGPT, Midjourney, Claude.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "NONE",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["Platform development", "Community"],
+          "how": "PromptBase model. User-generated prompts. 20-30% commission. Scale."
+        },
+        {
+          "id": "blue_003",
+          "name": "AI Persona Services",
+          "description": "Create AI versions of people - influencers, experts, deceased loved ones.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "LOW",
+          "automation": "90%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI training", "Legal considerations"],
+          "how": "Train AI on person's content. Monthly subscription. B2B for brands/influencers."
+        },
+        {
+          "id": "blue_004",
+          "name": "Quantum Computing Arbitrage",
+          "description": "Early quantum computing for finance - optimization, simulations.",
+          "monthly_potential": "$100K-$1M",
+          "risk": "HIGH",
+          "automation": "100%",
+          "setup_time": "3-6 months",
+          "requirements": ["Quantum access", "Advanced math"],
+          "how": "Access quantum via IBM/Google. Optimize portfolios, simulate markets. First-mover advantage."
+        },
+        {
+          "id": "blue_005",
+          "name": "AI-Generated Music Empire",
+          "description": "Mass produce AI music for streaming platforms. Collect royalties.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI music tools", "Distribution"],
+          "how": "Generate 1000s of tracks. Upload to Spotify/Apple Music. Passive royalties."
+        },
+        {
+          "id": "blue_006",
+          "name": "Personal Data Brokerage",
+          "description": "Help people monetize their own data. Take cut of transactions.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "LOW",
+          "automation": "85%",
+          "setup_time": "2-3 months",
+          "requirements": ["Platform", "Legal framework"],
+          "how": "Users share data, you broker to companies. User gets paid, you take 20-30%."
+        },
+        {
+          "id": "blue_007",
+          "name": "AI Therapist/Counselor Service",
+          "description": "AI-powered mental health support. Monthly subscription.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "MEDIUM",
+          "automation": "100%",
+          "setup_time": "2-3 months",
+          "requirements": ["AI training", "Mental health expertise"],
+          "how": "$20-50/month subscription. 1K-10K users. AI provides support. Human backup for crises."
+        },
+        {
+          "id": "blue_008",
+          "name": "Autonomous Hedge Fund",
+          "description": "AI-run hedge fund. Investors deposit, AI trades. Performance fees.",
+          "monthly_potential": "$100K-$1M",
+          "risk": "HIGH",
+          "automation": "100%",
+          "setup_time": "3-6 months",
+          "requirements": ["Trading track record", "Legal structure", "AI systems"],
+          "how": "AUM $1M-10M. 2% management fee + 20% performance. Fully AI-driven."
+        },
+        {
+          "id": "blue_009",
+          "name": "AI Legal Services",
+          "description": "AI-powered legal document review, contract analysis, basic legal advice.",
+          "monthly_potential": "$20K-$200K",
+          "risk": "MEDIUM",
+          "automation": "90%",
+          "setup_time": "2-3 months",
+          "requirements": ["Legal knowledge", "AI training"],
+          "how": "$100-500/month subscription. Small businesses + individuals. AI + human review."
+        },
+        {
+          "id": "blue_010",
+          "name": "Virtual Real Estate",
+          "description": "Buy, develop, sell virtual land in metaverses - Decentraland, Sandbox, Otherside.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "MEDIUM",
+          "automation": "70%",
+          "setup_time": "1-2 months",
+          "requirements": ["Capital", "Metaverse knowledge"],
+          "how": "Buy undervalued land, develop experiences, flip. Rent for events. Metaverse growth."
+        },
+        {
+          "id": "blue_011",
+          "name": "AI Influencer Agency",
+          "description": "Create and manage AI influencers - Instagram, TikTok, YouTube.",
+          "monthly_potential": "$50K-$500K",
+          "risk": "LOW",
+          "automation": "95%",
+          "setup_time": "1-2 months",
+          "requirements": ["AI generation", "Social media"],
+          "how": "Create AI personas. Post content. Brand deals. No human limitations. Scale to 10-50 influencers."
+        },
+        {
+          "id": "blue_012",
+          "name": "Prediction Market Arbitrage",
+          "description": "Exploit inefficiencies in prediction markets - Polymarket, Metaculus.",
+          "monthly_potential": "$10K-$100K",
+          "risk": "LOW",
+          "automation": "100%",
+          "setup_time": "2-4 weeks",
+          "requirements": ["Market knowledge", "Capital"],
+          "how": "AI predicts outcomes better than markets. Arbitrage across platforms. Consistent profits."
+        }
+      ]
+    }
+  }
+}

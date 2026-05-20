@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-20T20:05:00Z",
+  "mission": {
+    "target_monthly": 5000000,
+    "authority": "Shardick",
+    "mode": "no_restrictions"
+  },
+  "wallets": {
+    "primary": {
+      "network": "BEP20",
+      "address": "0xb0e9e74e720ff587a5097595f2ff5917bbb84838",
+      "current_balance": 0,
+      "total_received": 0
+    },
+    "secondary": {
+      "network": "TRC20",
+      "address": "TDUmDLUgXFHcNiGQ6TeCf65pvwqditYi21",
+      "current_balance": 0,
+      "total_received": 0
+    }
+  },
+  "hustles": {
+    "active": 10,
+    "building": 0,
+    "paused": 0
+  },
+  "earnings": {
+    "today": 0,
+    "this_week": 0,
+    "this_month": 0,
+    "all_time": 0
+  },
+  "milestones": [
+    {
+      "amount": 100,
+      "status": "pending",
+      "description": "First $100"
+    },
+    {
+      "amount": 1000,
+      "status": "pending",
+      "description": "First $1K"
+    },
+    {
+      "amount": 10000,
+      "status": "pending",
+      "description": "First $10K"
+    },
+    {
+      "amount": 100000,
+      "status": "pending",
+      "description": "First $100K"
+    },
+    {
+      "amount": 1000000,
+      "status": "pending",
+      "description": "First $1M"
+    },
+    {
+      "amount": 5000000,
+      "status": "pending",
+      "description": "Monthly Target"
+    }
+  ],
+  "next_actions": [
+    "Complete AI Content Platform build",
+    "Set up Gumroad payment integration",
+    "Launch first content pack",
+    "Activate affiliate links",
+    "Start memecoin paper trading"
+  ]
+}
