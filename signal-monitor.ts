@@ -176,12 +176,12 @@ async function postSignal(signal: {
 📊 Analysis:
 • Direction: ${a.direction}
 • Confidence: ${a.confidence}%
-• Entry: ${a.entry?.toFixed(symbol.includes("XAU") ? 2 : 5)}
-• SL: ${a.stopLoss?.toFixed(symbol.includes("XAU") ? 2 : 5)}
-• TP: ${a.takeProfit?.toFixed(symbol.includes("XAU") ? 2 : 5)}
+• Entry: ${a.entry?.toFixed(signal.symbol.includes("XAU") || signal.symbol.includes("XAG") ? 2 : 5)}
+• SL: ${a.stopLoss?.toFixed(signal.symbol.includes("XAU") || signal.symbol.includes("XAG") ? 2 : 5)}
+• TP: ${a.takeProfit?.toFixed(signal.symbol.includes("XAU") || signal.symbol.includes("XAG") ? 2 : 5)}
 
 🚫 No-Reversal Zone:
-${a.noReversalZone?.start.toFixed(symbol.includes("XAU") ? 2 : 5)} - ${a.noReversalZone?.end.toFixed(symbol.includes("XAU") ? 2 : 5)}
+${a.noReversalZone?.start.toFixed(signal.symbol.includes("XAU") || signal.symbol.includes("XAG") ? 2 : 5)} - ${a.noReversalZone?.end.toFixed(signal.symbol.includes("XAU") || signal.symbol.includes("XAG") ? 2 : 5)}
 
 📝 ${a.reasoning}
 ━━━━━━━━━━━━━━━
