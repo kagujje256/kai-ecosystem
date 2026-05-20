@@ -1,0 +1,155 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-09T14:35:00Z",
+  "wallets": {
+    "BEP20": "0xb0e9e74e720ff587a5097595f2ff5917bbb84838",
+    "TRC20": "TDUmDLUgXFHcNiGQ6TeCf65pvwqditYi21"
+  },
+  "auto_transfer_hustles": [
+    {
+      "id": "crypto_payment_gateway",
+      "name": "Crypto Payment Gateway",
+      "description": "Accept crypto payments for any product/service, auto-forward to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$50K-$500K",
+      "automation": "100%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "Customer pays crypto → Payment gateway → Auto-forward to your wallet",
+        "No manual action needed",
+        "Supports BTC, ETH, BNB, USDT, USDC, TRX",
+        "Instant settlement"
+      ],
+      "status": "BUILDING",
+      "needs": ["NowPayments API key (free) OR CoinGate API key (free)"]
+    },
+    {
+      "id": "affiliate_crypto_payments",
+      "name": "Crypto Affiliate Programs",
+      "description": "Refer users to crypto services, earn commission paid directly to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$10K-$200K",
+      "automation": "100%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "Share referral links",
+        "Users sign up and trade/use service",
+        "Commission auto-paid to your wallet",
+        "No transfer action needed"
+      ],
+      "status": "READY",
+      "needs": ["Binance referral ID", "Bybit referral ID"]
+    },
+    {
+      "id": "smart_contract_distribution",
+      "name": "Smart Contract Auto-Distribution",
+      "description": "Revenue goes to smart contract, auto-distributes to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$100K-$2M",
+      "automation": "100%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "Deploy smart contract",
+        "All revenue flows into contract",
+        "Contract auto-sends to your wallet",
+        "Used for token sales, NFT mints"
+      ],
+      "status": "NEEDS_SETUP",
+      "needs": ["BSC wallet private key (for deployment only)"]
+    },
+    {
+      "id": "defi_yield_harvester",
+      "name": "DeFi Yield Harvester",
+      "description": "Auto-compound yields and transfer profits to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$5K-$100K",
+      "automation": "95%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "Deposit into DeFi protocols",
+        "Auto-compound rewards",
+        "Transfer profits to wallet on schedule",
+        "Reinvest principal"
+      ],
+      "status": "NEEDS_SETUP",
+      "needs": ["Wallet with funds to deposit", "DeFi protocol accounts"]
+    },
+    {
+      "id": "telegram_paid_services",
+      "name": "Telegram Paid Services",
+      "description": "Sell premium Telegram services, accept crypto direct to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$10K-$100K",
+      "automation": "95%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "User sends crypto to your wallet",
+        "KAI verifies payment on blockchain",
+        "Auto-grants access/service",
+        "Funds already in wallet - no transfer needed"
+      ],
+      "status": "READY",
+      "needs": ["None - already have wallet addresses"]
+    },
+    {
+      "id": "airdrop_hunter",
+      "name": "Airdrop Hunter",
+      "description": "Auto-participate in airdrops, tokens sent directly to wallet",
+      "setup_cost": 0,
+      "monthly_potential": "$1K-$50K",
+      "automation": "90%",
+      "auto_transfer": true,
+      "how_it_works": [
+        "Auto-find and participate in airdrops",
+        "Complete tasks automatically",
+        "Tokens airdropped directly to wallet",
+        "No transfer needed"
+      ],
+      "status": "BUILDING",
+      "needs": ["Twitter account", "Discord accounts"]
+    }
+  ],
+  "transfer_methods": {
+    "direct_to_wallet": {
+      "description": "Payments go directly to your wallet - no transfer needed",
+      "hustles": ["crypto_payment_gateway", "affiliate_crypto_payments", "telegram_paid_services", "airdrop_hunter"],
+      "status": "READY"
+    },
+    "smart_contract_auto": {
+      "description": "Smart contract auto-distributes to your wallet",
+      "hustles": ["smart_contract_distribution"],
+      "status": "NEEDS_SETUP"
+    },
+    "scheduled_withdrawal": {
+      "description": "KAI auto-withdraws from exchanges on schedule",
+      "hustles": ["trading_bot_profits"],
+      "status": "NEEDS_API_KEYS"
+    }
+  },
+  "api_keys_needed": [
+    {
+      "service": "Binance",
+      "purpose": "Trading bot + affiliate commissions + auto-withdrawal",
+      "permissions_needed": ["spot trading", "withdrawal", "reading"],
+      "get_from": "https://www.binance.com/en/my/settings/api-management"
+    },
+    {
+      "service": "NowPayments",
+      "purpose": "Crypto payment gateway with auto-forward",
+      "permissions_needed": ["create invoices", "check payments"],
+      "get_from": "https://account.nowpayments.io/"
+    },
+    {
+      "service": "Bybit",
+      "purpose": "Derivatives trading + affiliate",
+      "permissions_needed": ["spot trading", "withdrawal"],
+      "get_from": "https://www.bybit.com/app/user/api-management"
+    },
+    {
+      "service": "Deriv",
+      "purpose": "Synthetic trading (V75, digits)",
+      "permissions_needed": ["trading", "withdrawal"],
+      "get_from": "https://app.deriv.com/account/api-token"
+    }
+  ]
+}
