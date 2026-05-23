@@ -1,0 +1,131 @@
+{
+  "brand": {
+    "name": "KaiPay",
+    "tagline": "KAI Payment Gateway - Instant Mobile Money",
+    "version": "1.0.0",
+    "created": "2026-05-09",
+    "owner": "Kagujje",
+    "description": "Mobile money payment collection and disbursement system for Uganda and Kenya",
+    "contact": {
+      "email": "shardickkasiba@gmail.com",
+      "telegram": "@dicksonkagujje",
+      "website": "kaguujje3.zo.space"
+    }
+  },
+  "providers": {
+    "uganda": {
+      "mtn": {
+        "name": "MTN Mobile Money",
+        "provider_code": "MTN_UG",
+        "currency": "UGX",
+        "country_code": "UG",
+        "phone_prefix": "+256",
+        "patterns": ["076", "077", "078", "079", "031", "039"],
+        "collection_limits": {
+          "min": 500,
+          "max": 10000000
+        },
+        "disbursement_limits": {
+          "min": 100,
+          "max": 10000000
+        },
+        "api": {
+          "base_url": "https://momodeveloper.mtn.com",
+          "sandbox_url": "https://sandbox.momodeveloper.mtn.com"
+        }
+      },
+      "airtel": {
+        "name": "Airtel Money",
+        "provider_code": "AIRTEL_UG",
+        "currency": "UGX",
+        "country_code": "UG",
+        "phone_prefix": "+256",
+        "patterns": ["070", "074", "075"],
+        "collection_limits": {
+          "min": 500,
+          "max": 10000000
+        },
+        "disbursement_limits": {
+          "min": 100,
+          "max": 10000000
+        },
+        "api": {
+          "base_url": "https://openapi.airtel.africa",
+          "sandbox_url": "https://openapiuat.airtel.africa"
+        }
+      }
+    },
+    "kenya": {
+      "mpesa": {
+        "name": "M-PESA",
+        "provider_code": "MPESA_KE",
+        "currency": "KES",
+        "country_code": "KE",
+        "phone_prefix": "+254",
+        "patterns": ["07"],
+        "collection_limits": {
+          "min": 10,
+          "max": 150000
+        },
+        "disbursement_limits": {
+          "min": 10,
+          "max": 150000
+        }
+      },
+      "airtel": {
+        "name": "Airtel Money Kenya",
+        "provider_code": "AIRTEL_KE",
+        "currency": "KES",
+        "country_code": "KE",
+        "phone_prefix": "+254",
+        "patterns": ["07"],
+        "collection_limits": {
+          "min": 10,
+          "max": 150000
+        },
+        "disbursement_limits": {
+          "min": 10,
+          "max": 150000
+        }
+      }
+    }
+  },
+  "fees": {
+    "collection": {
+      "uganda": {
+        "percentage": 2.5,
+        "fixed": 0
+      },
+      "kenya": {
+        "percentage": 2.0,
+        "fixed": 0
+      }
+    },
+    "disbursement": {
+      "uganda": {
+        "percentage": 1.5,
+        "fixed": 100
+      },
+      "kenya": {
+        "percentage": 1.0,
+        "fixed": 10
+      }
+    }
+  },
+  "webhooks": {
+    "collection_callback": "https://kaguujje3.zo.space/api/kaipay/webhook/collection",
+    "disbursement_callback": "https://kaguujje3.zo.space/api/kaipay/webhook/disbursement",
+    "timeout_seconds": 300
+  },
+  "database": {
+    "transactions_file": "/home/workspace/kaipay-transactions.json",
+    "merchants_file": "/home/workspace/kaipay-merchants.json",
+    "webhooks_file": "/home/workspace/kaipay-webhooks.json"
+  },
+  "security": {
+    "encryption": "AES-256",
+    "token_expiry": 3600,
+    "max_retries": 3,
+    "timeout": 30
+  }
+}
