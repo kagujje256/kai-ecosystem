@@ -1,0 +1,28 @@
+{
+  "platform": {
+    "name": "KagujjeFlix",
+    "tagline": "Your Home Cinema",
+    "domain": "home.kagujje.com",
+    "model": "subscription"
+  },
+  "features": [
+    "Video player with multi-quality",
+    "Subtitle support",
+    "User accounts",
+    "Payment integration (MTN/Airtel)",
+    "Admin content management",
+    "Search and categories"
+  ],
+  "legal_requirements": [
+    "License content from distributors",
+    "DMCA takedown procedure",
+    "Terms of Service",
+    "Privacy Policy",
+    "URSB registration"
+  ],
+  "monetization": {
+    "subscription": "UGX 30,000/month",
+    "pay_per_view": "UGX 2,000/movie",
+    "ads": "Pre-roll ads for free tier"
+  }
+}

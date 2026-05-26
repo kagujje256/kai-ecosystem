@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "provider": "Straico",
+  "api_key": "tY-Tr12BEgNnV6DGMTsBaWekDA8At8hU4CVVVcocnc8Bopj2Uuh",
+  "base_url": "https://api.straico.com/v1",
+  "capabilities": {
+    "chat": 50,
+    "image": 20,
+    "video": 5,
+    "audio": 3
+  },
+  "pricing_model": "coins",
+  "features": [
+    "Multi-model access (Claude, GPT, Gemini, Grok, DeepSeek, Llama)",
+    "Image generation (DALL-E 3, Flux, Ideogram)",
+    "Video generation (Kling, Veo2, Runway)",
+    "Audio generation (ElevenLabs TTS)",
+    "Uncensored models available (DeepSeek R1, Grok, Dolphin)"
+  ],
+  "best_models": {
+    "coding": "anthropic/claude-sonnet-4.5",
+    "reasoning": "anthropic/claude-3.7-sonnet:thinking",
+    "creative": "deepseek/deepseek-r1",
+    "fast": "amazon/nova-lite-v1",
+    "uncensored": "deepseek/deepseek-r1:nitro",
+    "image": "ideogram/V_2A",
+    "video": "fal-ai/kling-video/v2.1/master/image-to-video",
+    "audio": "eleven_v3"
+  },
+  "sync_to_all_nodes": true
+}

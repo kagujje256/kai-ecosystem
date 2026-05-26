@@ -107,6 +107,12 @@
 
 ---
 
+## 🔑 API Keys & Integrations
+
+### Straico AI Gateway
+
+---
+
 ## 🌐 API Endpoints
 - `GET /api/kai/mesh` - Mesh status
 - `GET /api/kai/trades?action=status` - Trading status
